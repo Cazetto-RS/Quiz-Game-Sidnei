@@ -18,7 +18,7 @@ export default function ResultScreen({ route, navigation }: any) {
         <Text style={styles.score}>{pontos} PTS</Text>
         
         <Text style={[styles.name, { marginTop: 20, fontSize: 12 }]}>
-          {pontos === 60 ? "NÍVEL: MESTRE" : pontos === 50 ? "NÍVEL: EXPERT" : pontos === 40 ? "NÍVEL: AVANÇADO" : pontos === 30 ? "NÍVEL: INTERMEDIÁRIO" : pontos === 20 ? "NÍVEL: INICIANTE" : "NÍVEL: DESISTA DA SUA VIDA"}
+          {pontos === 60 ? "NÍVEL: PIKA DE MAIS" : pontos === 50 ? "NÍVEL: FOI TOP EIN?" : pontos === 40 ? "NÍVEL: FOI BOM, MAS ESPERAVA MAIS" : pontos === 30 ? "NÍVEL: BEM RUINZINHO EIN?" : pontos === 20 ? "NÍVEL: VAMO TENTAR PLMS?" : "NÍVEL: DESISTA DA SUA VIDA"}
         </Text>
       </View>
 

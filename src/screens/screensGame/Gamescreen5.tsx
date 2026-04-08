@@ -22,7 +22,7 @@ export default function GameScreen5({ route, navigation }:any) {
 
       {/* Caixa do Arcade envolvendo a pergunta e respostas */}
       <View style={styles.divArcade}>
-        <Text style={styles.question}>Você goste cuscuz paulista?</Text>
+        <Text style={styles.question}>Você gosta de cuscuz paulista?</Text>
 
         {["Sim (anti-cristo)", "Não", "Odeio quem gosta"].map((opcao, index) => (
           <TouchableOpacity
