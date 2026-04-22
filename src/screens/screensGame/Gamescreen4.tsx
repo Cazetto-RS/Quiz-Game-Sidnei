@@ -24,7 +24,7 @@ export default function GameScreen4({ route, navigation }:any) {
       <View style={styles.divArcade}>
         <Text style={styles.question}>O PC quebrou e agora?</Text>
 
-        {["Culpar o estagiário", "Enterrar o PC", "Enterrar o estagiário"].map((opcao, index) => (
+        {["Culpar o estagiário", "Enterrar o PC", "Enterrar o estagiário", "Arrumar"].map((opcao, index) => (
           <TouchableOpacity
             key={index}
             style={styles.card}

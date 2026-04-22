@@ -24,7 +24,7 @@ export default function GameScreen3({ route, navigation }:any) {
       <View style={styles.divArcade}>
         <Text style={styles.question}>O código deu um erro, o que vc faz?</Text>
 
-        {["Procuro na internet", "Analisar o código", "3 socão no PC"].map((opcao, index) => (
+        {["Procuro na internet", "Analisar o código", "3 socão no PC", "Peço ajuda pro GPT"].map((opcao, index) => (
           <TouchableOpacity
             key={index}
             style={styles.card}

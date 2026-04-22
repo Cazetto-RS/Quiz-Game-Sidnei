@@ -12,7 +12,7 @@ export default function GameScreen6({ route, navigation }:any) {
         console.log('Resposta correta! Pontos:', novosPontos);
     }
     
-    navigation.navigate('Result', { nome, pontos: novosPontos });
+    navigation.navigate('Game7', { nome, pontos: novosPontos });
   };
 
   return (
@@ -24,7 +24,7 @@ export default function GameScreen6({ route, navigation }:any) {
       <View style={styles.divArcade}>
         <Text style={styles.question}>Quem é o GOAT?</Text>
 
-        {["ZyoWo", "S1mple", "Molodoy"].map((opcao, index) => (
+        {["ZyoWo", "S1mple", "Molodoy", "Monesy"].map((opcao, index) => (
           <TouchableOpacity
             key={index}
             style={styles.card}

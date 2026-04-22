@@ -24,7 +24,7 @@ export default function GameScreen2({ route, navigation }:any) {
       <View style={styles.divArcade}>
         <Text style={styles.question}>O que fazer se amanhã tem prova?</Text>
 
-        {["Estudar", "Ver vídeo aula", "Confiar em Deus"].map((opcao, index) => (
+        {["Estudar", "Ver vídeo aula", "Confiar em Deus", "Colar do amigo"].map((opcao, index) => (
           <TouchableOpacity
             key={index}
             style={styles.card}

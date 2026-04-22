@@ -22,7 +22,6 @@ const styles = StyleSheet.create({
   },
   divArcade: {
     width: 350, // Largura fixa em pixels (bom para quase todo celular)
-    height: 320, // Altura fixa para não mudar entre perguntas/resultados
     backgroundColor: "#111",
     alignItems: "center",
     justifyContent: "center", // Garante que o conteúdo fique sempre no meio
@@ -42,6 +41,7 @@ const styles = StyleSheet.create({
     marginBottom: 30,
     fontFamily: "MinhaFontePixel",
     lineHeight: 25,
+    marginTop: 10
   },
   card: {
     width: "100%",
@@ -59,6 +59,7 @@ const styles = StyleSheet.create({
     fontSize: 14,
     fontFamily: "MinhaFontePixel",
     textTransform: "uppercase",
+    alignItems: "center",
   },
 });
 

@@ -25,7 +25,7 @@ export default function HomeScreen({ navigation }:any) {
           style={styles.button}
           onPress={() => navigation.navigate('Game', { nome })}
         >
-          <Text style={styles.buttonText}>JOGAR</Text>
+          <Text style={styles.buttonText}>INICIAR</Text>
         </TouchableOpacity>
       </View>
     </View>

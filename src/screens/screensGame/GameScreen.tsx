@@ -24,7 +24,7 @@ export default function GameScreen({ route, navigation }: any) {
       <View style={styles.divArcade}>
         <Text style={styles.question}>O que falar se o código não funcionar?</Text>
 
-        {["Na minha máquina funciona!", "Complicado né?", "FDS?"].map((opcao, index) => (
+        {["Na minha máquina funciona!", "Complicado né?", "FDS?", "Vou arrumar!"].map((opcao, index) => (
           <TouchableOpacity
             key={index}
             style={styles.card}
