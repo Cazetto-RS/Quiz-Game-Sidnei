@@ -15,6 +15,7 @@ import GameScreen8 from '../screens/screensGame/Gamescreen8';
 import GameScreen9 from '../screens/screensGame/Gamescreen9';
 import GameScreen10 from '../screens/screensGame/Gamescreen10';
 import ResultScreen from '../screens/ResultScreen';
+import RankingScreen from '../screens/RankingScreen';
 
 const Stack = createStackNavigator();
 
@@ -35,6 +36,7 @@ export default function Routes() {
         <Stack.Screen name="Game9" component={GameScreen9} />
         <Stack.Screen name="Game10" component={GameScreen10} />
         <Stack.Screen name="Result" component={ResultScreen} />
+        <Stack.Screen name="Ranking" component={RankingScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
